@@ -16,54 +16,29 @@ export const baseDeDatos = [
     respuesta: "En la unidad de desarrollo profesional te ayudan a redactar tu CV y a buscar pasantías."
   },
 
-  // --- Respuestas del chatbot Bienestar y Desarrollo Profesional
+  // --- Nuevas respuestas agregadas para soporte estudiantil ---
   {
-    keywords: ["soporte emocional universitario", "manejo estrés", "apoyo psicológico", "recursos salud mental"],
-    respuesta: "La universidad cuenta con un servicio de atención psicológica y talleres de manejo del estrés; puedes pedir una cita con orientación estudiantil para recibir apoyo continuo."
+    keywords: ["estres", "problemas emocionales", "ayuda psicologica", "bienestar mental", "apoyo emocional"],
+    respuesta: "Si experimentas estrés o problemas emocionales, la Universidad ofrece servicios de bienestar estudiantil a través del Centro de Salud Mental. Puedes acceder a sesiones de asesoramiento psicológico, talleres de manejo del estrés y apoyo emocional especializado. Contacta a bienestar@udb.edu.sv o visita el Centro de Salud Mental en el campus principal."
   },
   {
-    keywords: ["ayuda inmediata emocional", "estrés académico", "consejería", "apoyo crisis"],
-    respuesta: "Si te sientes sobrecargado o en crisis emocional, contacta de inmediato la línea de apoyo de la universidad o agenda una consulta en bienestar para recibir atención prioritaria."
+    keywords: ["discapacidades", "recursos especiales", "accesibilidad", "estudiantes con discapacidades", "apoyo a la diversidad"],
+    respuesta: "La Universidad cuenta con la Oficina de Accesibilidad y Apoyo a la Diversidad que ofrece recursos especializados como: evaluaciones de necesidades, adaptaciones curriculares, materiales accesibles, asistencia técnica y acompañamiento personalizado. Comunícate con accesibilidad@udb.edu.sv para conocer todos los programas de apoyo disponibles."
   },
   {
-    keywords: ["servicios discapacidad", "accesibilidad campus", "apoyos para discapacitados", "recursos inclusivos"],
-    respuesta: "La oficina de inclusión ofrece servicios como adaptaciones en evaluaciones, materiales en formatos accesibles y coordinación para facilitar tu tránsito académico."
+    keywords: ["asesoramiento", "tutoria", "rendimiento academico", "ayuda academica", "mejora de calificaciones"],
+    respuesta: "La Universidad ofrece servicios integrales de tutoría académica, asesoramiento personalizado y talleres de técnicas de estudio para mejorar tu rendimiento. Puedes acceder al Centro de Apoyo Académico donde contamos con tutores especializados en diferentes materias. Consulta en academico@udb.edu.sv para agendar tu sesión."
   },
   {
-    keywords: ["ayuda para estudiantes con discapacidad", "ajustes razonables", "programas de accesibilidad", "soporte discapacidad"],
-    respuesta: "Regístrate en los programas de apoyo para estudiantes con discapacidad para recibir ajustes personalizados, asistencia tecnológica y apoyo en la comunicación con tu profesorado."
+    keywords: ["pasantias profesionales", "practicas profesionales", "experiencia laboral", "internship", "oportunidades laborales"],
+    respuesta: "Para encontrar pasantías y prácticas profesionales relevantes para tu carrera, contacta la Unidad de Desarrollo Profesional (UDP). Ellos mantienen convenios con empresas reconocidas, publican oportunidades constantemente en el portal de empleo y te orientan en la búsqueda según tu perfil profesional. Comunícate con desarrollo.profesional@udb.edu.sv."
   },
   {
-    keywords: ["asesoría académica", "servicios de tutoría", "mejorar desempeño", "apoyo en materias"],
-    respuesta: "Puedes acceder a tutorías por asignatura, asesorías pedagógicas y programas de mentoría que te ayudarán a reforzar contenidos y mejorar tus métodos de estudio."
+    keywords: ["curriculum vitae", "redactar cv", "recursos curriculum", "plantilla cv", "asesoramiento de cv"],
+    respuesta: "La Universidad ofrece recursos y servicios para ayudarte a redactar un currículum vitae profesional y efectivo. Disponemos de talleres, asesorías individuales gratuitas, plantillas personalizables y orientación sobre cómo presentar tu experiencia. La Unidad de Desarrollo Profesional brinda revisión curricular y consejos sobre formatos y estructura profesional."
   },
   {
-    keywords: ["tutores universitarios", "ayuda estudio", "refuerzo académico", "centro de aprendizaje"],
-    respuesta: "Los centros de aprendizaje ofrecen sesiones regulares, materiales de apoyo y tutores capacitados para acompañarte en las materias donde necesites refuerzo."
-  },
-  {
-    keywords: ["ofertas de pasantías", "buscar prácticas", "oportunidades internship", "plazas prácticas"],
-    respuesta: "Consulta la bolsa de empleo, plataformas asociadas y la oficina de carrera para ver anuncios de pasantías; además suelen impartir talleres para mejorar tus candidaturas."
-  },
-  {
-    keywords: ["conseguir pasantías", "contacto empresas", "red profesional", "prácticas profesionales"],
-    respuesta: "La unidad de empleabilidad facilita contactos con empresas, ferias profesionales y asesoría para adaptar tu postulación a las ofertas de prácticas relevantes."
-  },
-  {
-    keywords: ["ayuda para CV", "mejorar hoja de vida", "plantillas curriculum", "asesoría CV"],
-    respuesta: "Solicita una revisión personalizada del CV en desarrollo profesional; también hay plantillas y guías para destacar experiencia, logros y competencias."
-  },
-  {
-    keywords: ["confeccionar currículum", "redacción CV", "ejemplo hoja de vida", "formato CV"],
-    respuesta: "Participa en los talleres de redacción de CV donde enseñan cómo estructurar experiencia, adaptar el contenido según la oferta y optimizar tu presentación profesional."
-  },
-  {
-    keywords: ["preparación para entrevistas", "talleres entrevistas laborales", "simulacros", "entrenamiento entrevista"],
-    respuesta: "Además de los talleres, la oficina organiza simulacros con retroalimentación concreta sobre comunicación verbal y no verbal para que llegues más preparado a entrevistas reales."
-  },
-  {
-    keywords: ["cómo practicar entrevistas", "roleplay entrevista", "consejos para entrevistas", "prepararme entrevista"],
-    respuesta: "Puedes reservar sesiones de práctica individualizadas y recibir recomendaciones sobre respuestas, manejo del tiempo y presentación profesional antes de las entrevistas."
+    keywords: ["entrevistas", "preparacion entrevistas", "talleres", "entrevista trabajo", "practicar entrevistas"],
+    respuesta: "La Universidad ofrece talleres especializados para prepararte en entrevistas de trabajo. Estos incluyen técnicas de comunicación, simulacros de entrevistas personalizadas, manejo de preguntas difíciles y consejos sobre presentación profesional. Puedes reservar tu sesión de preparación en la Unidad de Desarrollo Profesional contactando a desarrollo.profesional@udb.edu.sv."
   }
 ];
-  
