@@ -1,31 +1,117 @@
+/* Fondo general */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Contenedor principal */
 .chat-container {
-  width: 400px;
-  margin: 40px auto;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  padding: 10px;
-  font-family: Arial, sans-serif;
+  width: 420px;
+  height: 600px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
 
+/* Título */
+.chat-container h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #1e3c72;
+}
+
+/* Caja de mensajes */
 .chat-box {
-  height: 300px;
+  flex: 1;
   overflow-y: auto;
-  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  background: #f4f6fb;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
+/* Scroll bonito */
+.chat-box::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+  background: #1e3c72;
+  border-radius: 10px;
+}
+
+/* Mensaje del bot */
 .bot-message {
-  background-color: #f1f1f1;
-  padding: 8px;
-  margin: 5px;
-  border-radius: 8px;
-  text-align: left;
+  align-self: flex-start;
+  background: #e3e9ff;
+  padding: 10px 14px;
+  border-radius: 15px 15px 15px 5px;
+  max-width: 75%;
+  font-size: 14px;
+  animation: fadeIn 0.3s ease-in-out;
 }
 
+/* Mensaje del usuario */
 .user-message {
-  background-color: #4caf50;
+  align-self: flex-end;
+  background: #1e3c72;
   color: white;
-  padding: 8px;
-  margin: 5px;
-  border-radius: 8px;
-  text-align: right;
+  padding: 10px 14px;
+  border-radius: 15px 15px 5px 15px;
+  max-width: 75%;
+  font-size: 14px;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Área de input */
+.input-area {
+  display: flex;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+.input-area button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  background: #1e3c72;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.input-area button:hover {
+  background: #2a5298;
+}
+
+/* Animación */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
